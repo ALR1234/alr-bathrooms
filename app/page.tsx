@@ -22,6 +22,11 @@ const galleryImages = [
   { src: "/images/bathroom-6.jpg", alt: "Victorian cloakroom with wall panelling, brass oval mirror, gold heated towel rail and chevron marble floor", title: "Victorian Cloakroom", location: "Esher, Surrey", detail: "Wall panelling · Brass fittings · Chevron marble floor · Gold towel rail" },
   { src: "/images/bathroom-3.jpg", alt: "Rose marble bathroom with brass rain shower and dark vanity unit", title: "Rose Marble & Brass", location: "Wimbledon", detail: "Rose onyx marble · Brass rain shower · Chevron floor tiles" },
   { src: "/images/bathroom-8.jpg", alt: "Artisan star-pattern tiled shower room with traditional brass shower column and gold heated towel rail", title: "Star-Tile Shower Room", location: "Kingston upon Thames", detail: "Artisan star tiles · Traditional brass shower · Gold heated towel rail" },
+  { src: "/images/bathroom-9.jpg", alt: "Floating white vanity unit with mirrored cabinet, wall-mounted taps and wall-hung WC", title: "Minimalist Floating Vanity", location: "Surrey", detail: "Floating vanity · Mirrored cabinet · Wall-mounted taps · Wall-hung WC" },
+  { src: "/images/bathroom-10.jpg", alt: "Full bathroom with floating vanity, under-unit LED lighting, bath with shower screen and chrome towel rail", title: "Contemporary Family Bathroom", location: "Surrey", detail: "LED under-vanity lighting · Bath with shower screen · Chrome towel rail · Skylights" },
+  { src: "/images/bathroom-11.jpg", alt: "Walk-in shower with rain head and hand shower over bath, bifold glass screen and large format tiles", title: "Bath & Shower Combo", location: "Surrey", detail: "Bifold shower screen · Rain shower head · Hand shower · Large format tiles" },
+  { src: "/images/bathroom-12.jpg", alt: "Pink bathroom with Arabescato marble tiles, console basin on brass legs, oval mirror and brass fittings", title: "Pink Marble Classic", location: "Surrey", detail: "Arabescato marble · Console basin on brass legs · Oval mirror · Brass fittings" },
+  { src: "/images/bathroom-13.jpg", alt: "Marble shower enclosure with brass frame, rain shower and hand shower with decorative niche shelf", title: "Marble Shower Enclosure", location: "Surrey", detail: "Arabescato marble · Brass frame & fittings · Rain shower · Recessed niche shelf" },
 ];
 
 export const metadata: Metadata = {
