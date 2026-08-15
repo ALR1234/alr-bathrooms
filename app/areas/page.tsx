@@ -53,6 +53,7 @@ const additionalAreas = [
   "Claygate", "Long Ditton", "Thames Ditton", "East Molesey",
   "West Molesey", "Hampton", "Sunbury-on-Thames", "Chertsey",
   "Egham", "Virginia Water", "Leatherhead",
+  "Cranleigh", "West Horsley", "Godalming", "Albury", "Haslemere",
 ];
 
 export default function AreasPage() {
