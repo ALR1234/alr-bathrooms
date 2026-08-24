@@ -14,7 +14,6 @@ import {
 } from "lucide-react";
 
 const galleryImages = [
-  { src: "/images/bathroom-4.jpg", alt: "Roll-top clawfoot bath with Arabescato marble and polished brass fittings", title: "Victorian Marble Suite", location: "Richmond", detail: "Arabescato marble · Clawfoot bath · Polished brass" },
   { src: "/images/bathroom-5.jpg", alt: "Spacious marble bathroom with freestanding bath, brass-framed glass shower enclosure and smart TV", title: "Marble Master Suite", location: "Oxshott", detail: "Marble tiles · Brass shower enclosure · Freestanding bath · Smart TV" },
   { src: "/images/bathroom-1.jpg", alt: "Dark navy vanity with Carrara marble vessel sink and warm wall sconces", title: "Bespoke Vanity", location: "Cobham, Surrey", detail: "Carrara vessel sink · Brass tap · Bespoke cabinetry" },
   { src: "/images/bathroom-7.jpg", alt: "Marble shower enclosure with brass frame, overhead rain shower and illuminated niche shelf", title: "Brass-Framed Shower", location: "Oxshott", detail: "Large marble tiles · Brass frame · Rain shower · Illuminated niche" },
@@ -25,8 +24,6 @@ const galleryImages = [
   { src: "/images/bathroom-9.jpg", alt: "Floating white vanity unit with mirrored cabinet, wall-mounted taps and wall-hung WC", title: "Minimalist Floating Vanity", location: "Surrey", detail: "Floating vanity · Mirrored cabinet · Wall-mounted taps · Wall-hung WC" },
   { src: "/images/bathroom-10.jpg", alt: "Full bathroom with floating vanity, under-unit LED lighting, bath with shower screen and chrome towel rail", title: "Contemporary Family Bathroom", location: "Surrey", detail: "LED under-vanity lighting · Bath with shower screen · Chrome towel rail · Skylights" },
   { src: "/images/bathroom-11.jpg", alt: "Walk-in shower with rain head and hand shower over bath, bifold glass screen and large format tiles", title: "Bath & Shower Combo", location: "Surrey", detail: "Bifold shower screen · Rain shower head · Hand shower · Large format tiles" },
-  { src: "/images/bathroom-12.jpg", alt: "Pink bathroom with Arabescato marble tiles, console basin on brass legs, oval mirror and brass fittings", title: "Pink Marble Classic", location: "Surrey", detail: "Arabescato marble · Console basin on brass legs · Oval mirror · Brass fittings" },
-  { src: "/images/bathroom-13.jpg", alt: "Marble shower enclosure with brass frame, rain shower and hand shower with decorative niche shelf", title: "Marble Shower Enclosure", location: "Surrey", detail: "Arabescato marble · Brass frame & fittings · Rain shower · Recessed niche shelf" },
 ];
 
 export const metadata: Metadata = {
