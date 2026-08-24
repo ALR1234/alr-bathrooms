@@ -12,13 +12,6 @@ export const metadata: Metadata = {
 
 const images = [
   {
-    src: "/images/bathroom-4.jpg",
-    alt: "Roll-top claw-foot bath with Arabescato marble tiles and polished brass fittings",
-    title: "Victorian Marble Suite",
-    location: "Richmond",
-    detail: "Arabescato marble · Freestanding clawfoot bath · Polished brass fittings",
-  },
-  {
     src: "/images/bathroom-5.jpg",
     alt: "Spacious marble bathroom with freestanding bath, brass-framed glass shower enclosure and smart TV",
     title: "Marble Master Suite",
@@ -87,20 +80,6 @@ const images = [
     title: "Bath & Shower Combo",
     location: "Surrey",
     detail: "Bifold shower screen · Rain shower head · Hand shower · Large format tiles",
-  },
-  {
-    src: "/images/bathroom-12.jpg",
-    alt: "Pink bathroom with Arabescato marble tiles, console basin on brass legs, oval mirror and brass fittings",
-    title: "Pink Marble Classic",
-    location: "Surrey",
-    detail: "Arabescato marble · Console basin on brass legs · Oval mirror · Brass fittings",
-  },
-  {
-    src: "/images/bathroom-13.jpg",
-    alt: "Marble shower enclosure with brass frame, rain shower and hand shower with decorative niche shelf",
-    title: "Marble Shower Enclosure",
-    location: "Surrey",
-    detail: "Arabescato marble · Brass frame & fittings · Rain shower · Recessed niche shelf",
   },
 ];
 
