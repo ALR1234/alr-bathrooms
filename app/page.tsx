@@ -24,8 +24,8 @@ const galleryImages = [
   { src: "/images/bathroom-9.jpg", alt: "Floating white vanity unit with mirrored cabinet, wall-mounted taps and wall-hung WC", title: "Minimalist Floating Vanity", location: "Surrey", detail: "Floating vanity · Mirrored cabinet · Wall-mounted taps · Wall-hung WC" },
   { src: "/images/bathroom-10.jpg", alt: "Full bathroom with floating vanity, under-unit LED lighting, bath with shower screen and chrome towel rail", title: "Contemporary Family Bathroom", location: "Surrey", detail: "LED under-vanity lighting · Bath with shower screen · Chrome towel rail · Skylights" },
   { src: "/images/bathroom-11.jpg", alt: "Walk-in shower with rain head and hand shower over bath, bifold glass screen and large format tiles", title: "Bath & Shower Combo", location: "Surrey", detail: "Bifold shower screen · Rain shower head · Hand shower · Large format tiles" },
-  { src: "/images/bathroom-17.jpg", alt: "Marble-tiled bathroom vanity wall with matte black fluted vanity unit and round backlit LED mirror", title: "Marble & Matte Black — Vanity", location: "Sutton, Surrey", detail: "Matte black fluted vanity · Round LED mirror · Large-format marble tiles" },
-  { src: "/images/bathroom-19.jpg", alt: "Framed glass shower enclosure with bronze fittings, square rain shower head and illuminated penny tile mosaic niche", title: "Bronze Shower Enclosure", location: "Fetcham", detail: "Bronze fittings · Square rain shower · Illuminated penny tile niche" },
+  { src: "/images/bathroom-22.jpg", alt: "Bathroom with deep teal vertical brick tiles, bath with folding glass screen, brass overhead rain shower and brass mixer taps", title: "Teal Brick & Brass Bathroom", location: "Surbiton", detail: "Deep teal vertical tiles · Brass rain shower · Fold-over glass screen · Niche shelf" },
+  { src: "/images/bathroom-20.jpg", alt: "Close-up of a running brushed brass tall monobloc tap beside a round white vessel sink with marble-tiled splashback", title: "Brushed Brass Tap Detail", location: "Fetcham", detail: "Brushed brass tap · Round vessel sink · Marble tiling · Warm wall lighting" },
 ];
 
 export const metadata: Metadata = {
