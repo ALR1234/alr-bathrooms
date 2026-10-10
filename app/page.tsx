@@ -24,6 +24,8 @@ const galleryImages = [
   { src: "/images/bathroom-9.jpg", alt: "Floating white vanity unit with mirrored cabinet, wall-mounted taps and wall-hung WC", title: "Minimalist Floating Vanity", location: "Surrey", detail: "Floating vanity · Mirrored cabinet · Wall-mounted taps · Wall-hung WC" },
   { src: "/images/bathroom-10.jpg", alt: "Full bathroom with floating vanity, under-unit LED lighting, bath with shower screen and chrome towel rail", title: "Contemporary Family Bathroom", location: "Surrey", detail: "LED under-vanity lighting · Bath with shower screen · Chrome towel rail · Skylights" },
   { src: "/images/bathroom-11.jpg", alt: "Walk-in shower with rain head and hand shower over bath, bifold glass screen and large format tiles", title: "Bath & Shower Combo", location: "Surrey", detail: "Bifold shower screen · Rain shower head · Hand shower · Large format tiles" },
+  { src: "/images/bathroom-17.jpg", alt: "Marble-tiled bathroom vanity wall with matte black fluted vanity unit and round backlit LED mirror", title: "Marble & Matte Black — Vanity", location: "Sutton, Surrey", detail: "Matte black fluted vanity · Round LED mirror · Large-format marble tiles" },
+  { src: "/images/bathroom-19.jpg", alt: "Framed glass shower enclosure with bronze fittings, square rain shower head and illuminated penny tile mosaic niche", title: "Bronze Shower Enclosure", location: "Fetcham", detail: "Bronze fittings · Square rain shower · Illuminated penny tile niche" },
 ];
 
 export const metadata: Metadata = {
