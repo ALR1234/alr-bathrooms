@@ -55,8 +55,8 @@ export default function Header() {
 
       {/* Main header */}
       <header
-        className={`sticky top-0 z-50 bg-white transition-shadow duration-300 ${
-          scrolled ? "shadow-md" : "border-b border-[#EDEAE3]"
+        className={`sticky top-0 z-50 bg-[#212741] transition-shadow duration-300 ${
+          scrolled ? "shadow-md" : "border-b border-white/10"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -83,17 +83,17 @@ export default function Header() {
                     onMouseEnter={() => setServicesOpen(true)}
                     onMouseLeave={() => setServicesOpen(false)}
                   >
-                    <button className="flex items-center gap-1 text-sm font-medium text-brand hover:text-[#C9A97A] transition-colors">
+                    <button className="flex items-center gap-1 text-sm font-medium text-white hover:text-[#C9A97A] transition-colors">
                       {item.label}
                       <ChevronDown size={14} />
                     </button>
                     {servicesOpen && (
-                      <div className="absolute top-full left-0 mt-1 bg-white shadow-xl border border-[#EDEAE3] rounded-sm w-52 py-1 z-50">
+                      <div className="absolute top-full left-0 mt-1 bg-[#212741] shadow-xl border border-white/10 rounded-sm w-52 py-1 z-50">
                         {item.children.map((child) => (
                           <Link
                             key={child.href}
                             href={child.href}
-                            className="block px-4 py-2.5 text-sm text-brand hover:bg-[#F8F6F2] hover:text-[#C9A97A] transition-colors"
+                            className="block px-4 py-2.5 text-sm text-white hover:bg-white/5 hover:text-[#C9A97A] transition-colors"
                           >
                             {child.label}
                           </Link>
@@ -105,7 +105,7 @@ export default function Header() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="text-sm font-medium text-brand hover:text-[#C9A97A] transition-colors"
+                    className="text-sm font-medium text-white hover:text-[#C9A97A] transition-colors"
                   >
                     {item.label}
                   </Link>
@@ -117,7 +117,7 @@ export default function Header() {
             <div className="flex items-center gap-3">
               <a
                 href="tel:07934679117"
-                className="hidden sm:flex items-center gap-2 text-sm font-bold text-brand hover:text-[#C9A97A] transition-colors"
+                className="hidden sm:flex items-center gap-2 text-sm font-bold text-white hover:text-[#C9A97A] transition-colors"
               >
                 <Phone size={15} />
                 07934 679117
@@ -130,7 +130,7 @@ export default function Header() {
               </Link>
               <button
                 onClick={() => setOpen(!open)}
-                className="lg:hidden p-2 text-brand"
+                className="lg:hidden p-2 text-white"
                 aria-label="Menu"
               >
                 {open ? <X size={22} /> : <Menu size={22} />}
@@ -141,14 +141,14 @@ export default function Header() {
 
         {/* Mobile menu */}
         {open && (
-          <div className="lg:hidden border-t border-[#EDEAE3] bg-white">
+          <div className="lg:hidden border-t border-white/10 bg-[#212741]">
             <div className="px-4 py-4 space-y-1">
               {nav.map((item) => (
                 <div key={item.label}>
                   <Link
                     href={item.href}
                     onClick={() => setOpen(false)}
-                    className="block py-2.5 text-sm font-medium text-brand hover:text-[#C9A97A] border-b border-[#EDEAE3]"
+                    className="block py-2.5 text-sm font-medium text-white hover:text-[#C9A97A] border-b border-white/10"
                   >
                     {item.label}
                   </Link>
@@ -157,7 +157,7 @@ export default function Header() {
                       key={child.href}
                       href={child.href}
                       onClick={() => setOpen(false)}
-                      className="block py-2 pl-4 text-sm text-stone-500 hover:text-[#C9A97A] border-b border-[#EDEAE3]"
+                      className="block py-2 pl-4 text-sm text-stone-300 hover:text-[#C9A97A] border-b border-white/10"
                     >
                       {child.label}
                     </Link>
@@ -167,7 +167,7 @@ export default function Header() {
               <div className="pt-3 flex flex-col gap-2">
                 <a
                   href="tel:07934679117"
-                  className="flex items-center justify-center gap-2 bg-brand text-white font-bold py-3 text-sm"
+                  className="flex items-center justify-center gap-2 border border-white/30 text-white font-bold py-3 text-sm"
                 >
                   <Phone size={15} />
                   Call 07934 679117
