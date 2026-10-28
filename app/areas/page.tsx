@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { MapPin, ArrowRight, Phone } from "lucide-react";
 
@@ -78,8 +79,16 @@ export default function AreasPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
 
-      <section className="bg-brand py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-brand py-20 overflow-hidden">
+        <Image
+          src="/images/bathroom-15.jpg"
+          alt="Marble-effect bathroom installed by ALR Bathrooms in Surrey"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover opacity-20"
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-3">Coverage</p>
           <h1 className="text-4xl lg:text-5xl font-black text-white mb-4">Areas We Cover</h1>
           <p className="text-[#8B8FA0] text-lg max-w-2xl leading-relaxed">

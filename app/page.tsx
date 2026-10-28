@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 
 const galleryImages = [
+  { src: "/images/bathroom-21.jpg", alt: "Spacious family bathroom with Calacatta marble tiles, bold star-pattern floor, fluted oak floating vanity, round backlit mirror and gold tap", title: "Star-Floor Family Bathroom", location: "Epsom", detail: "Calacatta marble · Star-pattern floor tiles · Fluted oak vanity · Gold tap · Round backlit mirror" },
   { src: "/images/bathroom-5.jpg", alt: "Spacious marble bathroom with freestanding bath, brass-framed glass shower enclosure and smart TV", title: "Marble Master Suite", location: "Oxshott", detail: "Marble tiles · Brass shower enclosure · Freestanding bath · Smart TV" },
   { src: "/images/bathroom-1.jpg", alt: "Dark navy vanity with Carrara marble vessel sink and warm wall sconces", title: "Bespoke Vanity", location: "Cobham, Surrey", detail: "Carrara vessel sink · Brass tap · Bespoke cabinetry" },
   { src: "/images/bathroom-7.jpg", alt: "Marble shower enclosure with brass frame, overhead rain shower and illuminated niche shelf", title: "Brass-Framed Shower", location: "Oxshott", detail: "Large marble tiles · Brass frame · Rain shower · Illuminated niche" },
@@ -135,7 +136,7 @@ export default function HomePage() {
 
       {/* ── HERO ── */}
       <section className="relative bg-brand overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/bathroom-hero.jpg')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/bathroom-21.jpg')] bg-cover bg-center opacity-20" />
         <div className="absolute top-0 left-0 right-0 h-1 bg-[#C9A97A]" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-36">
           <div className="max-w-3xl">
