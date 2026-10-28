@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Phone } from "lucide-react";
 
@@ -75,8 +76,16 @@ const steps = [
 export default function ProcessPage() {
   return (
     <>
-      <section className="bg-brand py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-brand py-20 overflow-hidden">
+        <Image
+          src="/images/bathroom-7.jpg"
+          alt="Walk-in shower with brushed brass frame by ALR Bathrooms"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover opacity-20"
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-3">How It Works</p>
           <h1 className="text-4xl lg:text-5xl font-black text-white mb-4">Our Process</h1>
           <p className="text-[#8B8FA0] text-lg max-w-2xl leading-relaxed">

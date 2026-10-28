@@ -135,7 +135,7 @@ export default function HomePage() {
 
       {/* ── HERO ── */}
       <section className="relative bg-brand overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/bathroom-hero.jpg')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/bathroom-21.jpg')] bg-cover bg-center opacity-20" />
         <div className="absolute top-0 left-0 right-0 h-1 bg-[#C9A97A]" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-36">
           <div className="max-w-3xl">

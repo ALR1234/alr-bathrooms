@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Ruler, Wrench, ArrowRight, CheckCircle2 } from "lucide-react";
 
@@ -14,6 +15,8 @@ const services = [
     icon: Ruler,
     title: "Bathroom Design",
     href: "/services/bathroom-design",
+    image: "/images/bathroom-4.jpg",
+    imageAlt: "Roll-top bath with marble tiles and brass fittings designed by ALR Bathrooms",
     headline: "Your Vision, Brought to Life",
     desc: "A great bathroom starts with a great design. We work with you to understand exactly how you want your bathroom to look and function — then we create a design that makes it a reality.",
     points: [
@@ -28,6 +31,8 @@ const services = [
     icon: Wrench,
     title: "Full Bathroom Installation",
     href: "/services/bathroom-installation",
+    image: "/images/bathroom-16.jpg",
+    imageAlt: "Herringbone tiled walk-in shower installed by ALR Bathrooms",
     headline: "Complete Installation, Zero Stress",
     desc: "We manage every aspect of your installation — from the initial strip-out through to the final clean. No need to source multiple tradespeople: we handle it all.",
     points: [
@@ -43,8 +48,16 @@ const services = [
 export default function ServicesPage() {
   return (
     <>
-      <section className="bg-brand py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-brand py-20 overflow-hidden">
+        <Image
+          src="/images/bathroom-21.jpg"
+          alt="Marble bathroom with patterned floor tiles by ALR Bathrooms"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover opacity-20"
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-3">Services</p>
           <h1 className="text-4xl lg:text-5xl font-black text-white mb-4">
             What We Offer
@@ -85,8 +98,14 @@ export default function ServicesPage() {
                   Learn More <ArrowRight size={14} />
                 </Link>
               </div>
-              <div className={`bg-[#EDEAE3] aspect-[4/3] flex items-center justify-center ${i % 2 === 1 ? "lg:order-1" : ""}`}>
-                <span className="text-[#8B8FA0] text-sm tracking-widest uppercase">Photo</span>
+              <div className={`relative bg-[#EDEAE3] aspect-[4/3] overflow-hidden ${i % 2 === 1 ? "lg:order-1" : ""}`}>
+                <Image
+                  src={s.image}
+                  alt={s.imageAlt}
+                  fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  className="object-cover"
+                />
               </div>
             </div>
           ))}
