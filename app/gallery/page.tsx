@@ -12,13 +12,6 @@ export const metadata: Metadata = {
 
 const images = [
   {
-    src: "/images/bathroom-5.jpg",
-    alt: "Spacious marble bathroom with freestanding bath, brass-framed glass shower enclosure and smart TV",
-    title: "Marble Master Suite",
-    location: "Oxshott",
-    detail: "Marble tiles · Brass shower enclosure · Freestanding bath · Smart TV",
-  },
-  {
     src: "/images/bathroom-1.jpg",
     alt: "Dark navy vanity unit with Carrara marble vessel sink, round walnut mirror and amber wall sconces",
     title: "Bespoke Vanity",
