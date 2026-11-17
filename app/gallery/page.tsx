@@ -19,13 +19,6 @@ const images = [
     detail: "Carrara vessel sink · Brass tap · Bespoke dark cabinetry · Walnut mirror",
   },
   {
-    src: "/images/bathroom-2.jpg",
-    alt: "Spacious luxury bathroom with large cream stone tiles, wall-hung WC and designer bath surround",
-    title: "Contemporary Stone Suite",
-    location: "Esher, Surrey",
-    detail: "Large-format stone tiles · Brass hardware · Wall-hung sanitaryware · Designer bath",
-  },
-  {
     src: "/images/bathroom-6.jpg",
     alt: "Victorian cloakroom with wall panelling, brass oval mirror, gold heated towel rail and chevron marble floor",
     title: "Victorian Cloakroom",
