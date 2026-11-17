@@ -78,8 +78,8 @@ export default function ProcessPage() {
     <>
       <section className="relative bg-brand py-20 overflow-hidden">
         <Image
-          src="/images/bathroom-7.jpg"
-          alt="Walk-in shower with brushed brass frame by ALR Bathrooms"
+          src="/images/bathroom-8.jpg"
+          alt="Star-pattern tiled shower room with brass shower column by ALR Bathrooms"
           fill
           priority
           sizes="100vw"
