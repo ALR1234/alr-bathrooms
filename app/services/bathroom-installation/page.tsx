@@ -116,7 +116,7 @@ export default function BathroomInstallationPage() {
 
             <div className="space-y-4">
               <div className="relative aspect-[4/3] overflow-hidden">
-                <Image src="/images/bathroom-2.jpg" alt="Luxury bathroom installation — large stone tiles and brass hardware" fill className="object-cover" />
+                <Image src="/images/bathroom-21.jpg" alt="Luxury bathroom installation — Calacatta marble, star-pattern floor and fluted oak vanity" fill className="object-cover" />
               </div>
               <div className="bg-[#F8F6F2] border border-[#EDEAE3] p-6">
                 <div className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-3">Free Estimates</div>
@@ -136,7 +136,7 @@ export default function BathroomInstallationPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[
               { src: "/images/bathroom-1.jpg", alt: "Bespoke dark vanity with marble vessel sink" },
-              { src: "/images/bathroom-2.jpg", alt: "Spacious stone-tiled luxury bathroom" },
+              { src: "/images/bathroom-22.jpg", alt: "Teal brick tiles with brass rain shower" },
               { src: "/images/bathroom-3.jpg", alt: "Rose marble bath with brass shower" },
               { src: "/images/bathroom-4.jpg", alt: "Clawfoot bath with Arabescato marble" },
             ].map((img) => (
