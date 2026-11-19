@@ -90,16 +90,16 @@ const images = [
   },
   {
     src: "/images/bathroom-18.jpg",
-    alt: "Taupe stone-effect cloakroom with wall-hung WC, illuminated hexagonal mosaic niche and matte black heated towel rail",
-    title: "Travertine Cloakroom",
-    location: "Fetcham",
-    detail: "Taupe stone-effect walls · Wall-hung WC · Illuminated hex mosaic niche · Matte black towel rail",
+    alt: "Stone-effect bathroom with wall-hung WC, illuminated bronze hexagon mosaic feature wall and brushed bronze heated towel rail",
+    title: "Bronze Mosaic Feature Wall",
+    location: "Woking",
+    detail: "Illuminated bronze hexagon mosaic · Stone-effect walls · Wall-hung WC · Brushed bronze towel rail",
   },
   {
     src: "/images/bathroom-19.jpg",
     alt: "Framed glass shower enclosure with bronze fittings, square rain shower head and illuminated circular penny tile mosaic niche",
     title: "Bronze Shower Enclosure",
-    location: "Fetcham",
+    location: "Woking",
     detail: "Bronze fittings · Square rain shower · Illuminated penny tile niche · Large-format stone tiles",
   },
   {
