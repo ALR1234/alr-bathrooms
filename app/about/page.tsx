@@ -33,9 +33,18 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-brand py-20">
+      <section className="relative bg-brand py-20 overflow-hidden">
+        <Image
+          src="/images/bathroom-22.jpg"
+          alt="Teal brick-tiled bathroom with brass rain shower"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover opacity-30"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand/80 via-brand/40 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-1 bg-[#C9A97A]" />
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-3">About Us</p>
           <h1 className="text-4xl lg:text-5xl font-black text-white mb-4">
             Bathroom Specialists <br />Based in Surrey
