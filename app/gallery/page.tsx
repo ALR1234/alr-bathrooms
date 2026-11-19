@@ -55,6 +55,7 @@ const images = [
   },
   {
     src: "/images/bathroom-31.jpg",
+    aspect: "1179 / 2096",
     alt: "Blush pink shower room with rounded backlit LED mirror, round white basin on a fluted pedestal, brushed nickel tap and walk-in shower with geometric tiles and lit niche",
     title: "Blush Pink Shower Room",
     location: "Kingston upon Thames",
