@@ -131,13 +131,6 @@ const images = [
     detail: "Stone-effect tiles · Sliding glass shower · Wall-hung WC · Floating vanity · Dormer window",
   },
   {
-    src: "/images/bathroom-24.jpg",
-    alt: "Bath with hinged glass screen, chrome rain shower head, hand shower and thermostatic controls against textured stone-effect tiles",
-    title: "Ottershaw Loft Ensuite — Bath & Shower",
-    location: "Ottershaw",
-    detail: "Rain shower head · Hand shower · Hinged bath screen · Textured stone-effect tiles",
-  },
-  {
     src: "/images/bathroom-25.jpg",
     alt: "Floating vanity with white basin and chrome tap, large backlit LED mirror, chrome heated towel rail and dormer window",
     title: "Ottershaw Loft Ensuite — Vanity",
@@ -150,6 +143,13 @@ const images = [
     title: "Ottershaw Loft Ensuite — Shower",
     location: "Ottershaw",
     detail: "Sliding glass enclosure · Chrome riser rail · Thermostatic shower · Decorative drain",
+  },
+  {
+    src: "/images/bathroom-24.jpg",
+    alt: "Bath with hinged glass screen, chrome rain shower head, hand shower and thermostatic controls against textured stone-effect tiles",
+    title: "Bath & Shower Combo",
+    location: "Sunbury-on-Thames",
+    detail: "Rain shower head · Hand shower · Hinged bath screen · Textured stone-effect tiles",
   },
   {
     src: "/images/bathroom-31.jpg",
