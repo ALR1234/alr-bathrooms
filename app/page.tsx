@@ -15,6 +15,7 @@ import {
 
 const galleryImages = [
   { src: "/images/bathroom-21.jpg", alt: "Spacious family bathroom with Calacatta marble tiles, bold star-pattern floor, fluted oak floating vanity, round backlit mirror and gold tap", title: "Star-Floor Family Bathroom", location: "Epsom", detail: "Calacatta marble · Star-pattern floor tiles · Fluted oak vanity · Gold tap · Round backlit mirror" },
+  { src: "/images/bathroom-20.jpg", alt: "Close-up of a running brushed brass tall monobloc tap beside a round white vessel sink with marble-tiled splashback", title: "Star-Floor Family Bathroom — Tap Detail", location: "Epsom", detail: "Brushed brass tap · Round vessel sink · Marble tiling · Warm wall lighting" },
   { src: "/images/bathroom-1.jpg", alt: "Dark navy vanity with Carrara marble vessel sink and warm wall sconces", title: "Bespoke Vanity", location: "Cobham, Surrey", detail: "Carrara vessel sink · Brass tap · Bespoke cabinetry" },
   { src: "/images/bathroom-6.jpg", alt: "Victorian cloakroom with wall panelling, brass oval mirror, gold heated towel rail and chevron marble floor", title: "Victorian Cloakroom", location: "Esher, Surrey", detail: "Wall panelling · Brass fittings · Chevron marble floor · Gold towel rail" },
   { src: "/images/bathroom-3.jpg", alt: "Rose marble bathroom with brass rain shower and dark vanity unit", title: "Rose Marble & Brass", location: "Wimbledon", detail: "Rose onyx marble · Brass rain shower · Chevron floor tiles" },
@@ -23,7 +24,6 @@ const galleryImages = [
   { src: "/images/bathroom-10.jpg", alt: "Full bathroom with floating vanity, under-unit LED lighting, bath with shower screen and chrome towel rail", title: "Contemporary Family Bathroom", location: "Surrey", detail: "LED under-vanity lighting · Bath with shower screen · Chrome towel rail · Skylights" },
   { src: "/images/bathroom-11.jpg", alt: "Walk-in shower with rain head and hand shower over bath, bifold glass screen and large format tiles", title: "Bath & Shower Combo", location: "Surrey", detail: "Bifold shower screen · Rain shower head · Hand shower · Large format tiles" },
   { src: "/images/bathroom-22.jpg", alt: "Bathroom with deep teal vertical brick tiles, bath with folding glass screen, brass overhead rain shower and brass mixer taps", title: "Teal Brick & Brass Bathroom", location: "Surbiton", detail: "Deep teal vertical tiles · Brass rain shower · Fold-over glass screen · Niche shelf" },
-  { src: "/images/bathroom-20.jpg", alt: "Close-up of a running brushed brass tall monobloc tap beside a round white vessel sink with marble-tiled splashback", title: "Brushed Brass Tap Detail", location: "Fetcham", detail: "Brushed brass tap · Round vessel sink · Marble tiling · Warm wall lighting" },
 ];
 
 export const metadata: Metadata = {
