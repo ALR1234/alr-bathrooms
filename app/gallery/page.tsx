@@ -40,18 +40,32 @@ const images = [
     detail: "Artisan star tiles · Traditional brass shower · Gold heated towel rail",
   },
   {
+    src: "/images/bathroom-31.jpg",
+    alt: "Blush pink shower room with rounded backlit LED mirror, round white basin on a fluted pedestal, brushed nickel tap and walk-in shower with geometric tiles and lit niche",
+    title: "Blush Pink Shower Room",
+    location: "Kingston upon Thames",
+    detail: "Backlit LED mirror · Round basin on fluted pedestal · Brushed nickel tap · Geometric tiled shower · Illuminated niche",
+  },
+  {
     src: "/images/bathroom-9.jpg",
     alt: "Floating white vanity unit with mirrored cabinet, wall-mounted taps and wall-hung WC",
     title: "Minimalist Floating Vanity",
-    location: "Surrey",
+    location: "Sunbury-on-Thames",
     detail: "Floating vanity · Mirrored cabinet · Wall-mounted taps · Wall-hung WC",
   },
   {
     src: "/images/bathroom-10.jpg",
     alt: "Full bathroom with floating vanity, under-unit LED lighting, bath with shower screen and chrome towel rail",
     title: "Contemporary Family Bathroom",
-    location: "Surrey",
+    location: "Sunbury-on-Thames",
     detail: "LED under-vanity lighting · Bath with shower screen · Chrome towel rail · Skylights",
+  },
+  {
+    src: "/images/bathroom-24.jpg",
+    alt: "Bath with hinged glass screen, chrome rain shower head, hand shower and thermostatic controls against textured stone-effect tiles",
+    title: "Bath & Shower Combo",
+    location: "Sunbury-on-Thames",
+    detail: "Rain shower head · Hand shower · Hinged bath screen · Textured stone-effect tiles",
   },
   {
     src: "/images/bathroom-14.jpg",
@@ -68,18 +82,18 @@ const images = [
     detail: "Marble tiles · Matte black fluted vanity · Round LED mirror · Black heated towel rail",
   },
   {
-    src: "/images/bathroom-16.jpg",
-    alt: "Dark emerald herringbone tiled shower with black-framed glass screen, brass gold rain shower and geometric hexagonal floor tiles",
-    title: "Emerald Herringbone Shower Suite",
-    location: "Redhill",
-    detail: "Emerald herringbone tiles · Black frame glass screen · Brass rain shower · Geometric floor tiles",
-  },
-  {
     src: "/images/bathroom-17.jpg",
     alt: "Marble-tiled bathroom vanity wall with matte black fluted vanity unit and round backlit LED mirror",
     title: "Marble & Matte Black — Vanity",
     location: "Sutton, Surrey",
     detail: "Matte black fluted vanity · Round LED mirror · Large-format marble tiles",
+  },
+  {
+    src: "/images/bathroom-16.jpg",
+    alt: "Dark emerald herringbone tiled shower with black-framed glass screen, brass gold rain shower and geometric hexagonal floor tiles",
+    title: "Emerald Herringbone Shower Suite",
+    location: "Redhill",
+    detail: "Emerald herringbone tiles · Black frame glass screen · Brass rain shower · Geometric floor tiles",
   },
   {
     src: "/images/bathroom-18.jpg",
@@ -143,20 +157,6 @@ const images = [
     title: "Ottershaw Loft Ensuite — Shower",
     location: "Ottershaw",
     detail: "Sliding glass enclosure · Chrome riser rail · Thermostatic shower · Decorative drain",
-  },
-  {
-    src: "/images/bathroom-24.jpg",
-    alt: "Bath with hinged glass screen, chrome rain shower head, hand shower and thermostatic controls against textured stone-effect tiles",
-    title: "Bath & Shower Combo",
-    location: "Sunbury-on-Thames",
-    detail: "Rain shower head · Hand shower · Hinged bath screen · Textured stone-effect tiles",
-  },
-  {
-    src: "/images/bathroom-31.jpg",
-    alt: "Blush pink shower room with rounded backlit LED mirror, round white basin on a fluted pedestal, brushed nickel tap and walk-in shower with geometric tiles and lit niche",
-    title: "Blush Pink Shower Room",
-    location: "Kingston upon Thames",
-    detail: "Backlit LED mirror · Round basin on fluted pedestal · Brushed nickel tap · Geometric tiled shower · Illuminated niche",
   },
 ];
 
