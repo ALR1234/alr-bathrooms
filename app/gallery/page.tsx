@@ -54,13 +54,6 @@ const images = [
     detail: "LED under-vanity lighting · Bath with shower screen · Chrome towel rail · Skylights",
   },
   {
-    src: "/images/bathroom-11.jpg",
-    alt: "Walk-in shower with rain head and hand shower over bath, bifold glass screen and large format tiles",
-    title: "Bath & Shower Combo",
-    location: "Surrey",
-    detail: "Bifold shower screen · Rain shower head · Hand shower · Large format tiles",
-  },
-  {
     src: "/images/bathroom-14.jpg",
     alt: "Matte black overhead rain shower head and controls over a white bath set against large-format white marble tiles",
     title: "Marble & Matte Black — Shower",
@@ -152,32 +145,11 @@ const images = [
     detail: "Sliding glass enclosure · Chrome riser rail · Thermostatic shower · Decorative drain",
   },
   {
-    src: "/images/bathroom-27.jpg",
-    alt: "Wide view of loft ensuite with sliding glass shower, wall-hung WC, floating vanity and dormer window",
-    title: "Ottershaw Loft Ensuite — Overview",
-    location: "Ottershaw",
-    detail: "Stone-effect tiles · Sliding glass shower · Wall-hung WC · Floating vanity",
-  },
-  {
-    src: "/images/bathroom-28.jpg",
+    src: "/images/bathroom-29.jpg",
     alt: "Cloakroom with arched brass-framed mirror, walnut vanity unit, white marble top, gold tap and deep blue tiles",
     title: "Ottershaw Loft Ensuite — Walnut Vanity",
     location: "Ottershaw",
     detail: "Arched brass mirror · Walnut vanity · Marble top · Gold tap · Deep blue tiles",
-  },
-  {
-    src: "/images/bathroom-29.jpg",
-    alt: "Shower enclosure with sliding glass door, chrome riser rail, thermostatic control and decorative drain",
-    title: "Ottershaw Loft Ensuite — Shower Detail",
-    location: "Ottershaw",
-    detail: "Sliding glass door · Chrome riser rail · Thermostatic shower · Decorative drain",
-  },
-  {
-    src: "/images/bathroom-30.jpg",
-    alt: "Floating vanity with white basin, large backlit LED mirror and chrome heated towel rail under a dormer window",
-    title: "Ottershaw Loft Ensuite — Mirror & Vanity",
-    location: "Ottershaw",
-    detail: "Backlit LED mirror · Floating vanity · Chrome heated towel rail · Dormer window",
   },
   {
     src: "/images/bathroom-31.jpg",
