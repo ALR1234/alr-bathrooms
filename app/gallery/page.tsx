@@ -117,6 +117,13 @@ const images = [
     detail: "Deep teal vertical tiles · Brass rain shower · Fold-over glass screen · Niche shelf",
   },
   {
+    src: "/images/bathroom-29.jpg",
+    alt: "Arched brass-framed mirror above a walnut vanity unit with white marble top and gold tap, beside deep teal vertical tiles",
+    title: "Teal Brick & Brass Bathroom — Walnut Vanity",
+    location: "Surbiton",
+    detail: "Arched brass mirror · Walnut vanity · Marble top · Gold tap · Deep teal vertical tiles",
+  },
+  {
     src: "/images/bathroom-23.jpg",
     alt: "Loft ensuite with stone-effect tiles, sliding glass shower, wall-hung WC, floating vanity and backlit mirror beneath a dormer window",
     title: "Ottershaw Loft Ensuite — Full View",
@@ -143,13 +150,6 @@ const images = [
     title: "Ottershaw Loft Ensuite — Shower",
     location: "Ottershaw",
     detail: "Sliding glass enclosure · Chrome riser rail · Thermostatic shower · Decorative drain",
-  },
-  {
-    src: "/images/bathroom-29.jpg",
-    alt: "Cloakroom with arched brass-framed mirror, walnut vanity unit, white marble top, gold tap and deep blue tiles",
-    title: "Ottershaw Loft Ensuite — Walnut Vanity",
-    location: "Ottershaw",
-    detail: "Arched brass mirror · Walnut vanity · Marble top · Gold tap · Deep blue tiles",
   },
   {
     src: "/images/bathroom-31.jpg",
