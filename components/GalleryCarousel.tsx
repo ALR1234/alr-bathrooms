@@ -10,6 +10,7 @@ interface CarouselImage {
   title: string;
   location: string;
   detail?: string;
+  aspect?: string;
 }
 
 interface Props {
@@ -42,10 +43,10 @@ export default function GalleryCarousel({ images, showCaptions = true }: Props) 
 
   return (
     <div className="w-full select-none">
-      {/* Square image container */}
+      {/* Image container — square unless the image sets its own aspect ratio */}
       <div
-        className="relative w-full overflow-hidden"
-        style={{ aspectRatio: "1 / 1" }}
+        className="relative w-full overflow-hidden transition-[aspect-ratio] duration-500"
+        style={{ aspectRatio: images[current].aspect ?? "1 / 1" }}
         onTouchStart={onTouchStart}
         onTouchEnd={onTouchEnd}
       >
