@@ -133,7 +133,19 @@ export default function HomePage() {
 
       {/* ── HERO ── */}
       <section className="relative bg-brand overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/bathroom-21.jpg')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/hero-shower-poster.jpg')] bg-cover bg-center opacity-40" />
+        <video
+          className="absolute inset-0 w-full h-full object-cover opacity-40 motion-reduce:hidden"
+          src="/videos/hero-shower.mp4"
+          poster="/images/hero-shower-poster.jpg"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          aria-hidden="true"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand/80 via-brand/40 to-transparent" />
         <div className="absolute top-0 left-0 right-0 h-1 bg-[#C9A97A]" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-36">
           <div className="max-w-3xl">
