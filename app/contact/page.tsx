@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
@@ -14,13 +13,17 @@ export default function ContactPage() {
   return (
     <>
       <section className="relative bg-brand py-20 overflow-hidden">
-        <Image
-          src="/images/bathroom-1.jpg"
-          alt="Navy vanity unit with round mirror and wall lights"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover opacity-20"
+        <div className="absolute inset-0 bg-[url('/images/contact-vanity-poster.jpg')] bg-cover bg-center opacity-30" />
+        <video
+          className="absolute inset-0 w-full h-full object-cover opacity-30 motion-reduce:hidden"
+          src="/videos/contact-vanity.mp4"
+          poster="/images/contact-vanity-poster.jpg"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          aria-hidden="true"
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-3">Get In Touch</p>
