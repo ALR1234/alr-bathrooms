@@ -17,6 +17,8 @@ const areas = [
   "Staines upon Thames",
 ];
 
+const moreAreas = ["Camberley", "Dorking", "Sutton", "Ascot", "Windsor"];
+
 export default function Footer() {
   return (
     <footer className="relative bg-brand text-cream overflow-hidden">
@@ -88,11 +90,15 @@ export default function Footer() {
           {/* Areas */}
           <div>
             <h3 className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-5">Areas Covered</h3>
-            <ul className="space-y-2">
-              {areas.map((area) => (
-                <li key={area} className="text-sm text-[#8B8FA0]">{area}</li>
+            <div className="grid grid-cols-2 gap-x-6">
+              {[areas, moreAreas].map((list, i) => (
+                <ul key={i} className="space-y-2">
+                  {list.map((area) => (
+                    <li key={area} className="text-sm text-[#8B8FA0]">{area}</li>
+                  ))}
+                </ul>
               ))}
-            </ul>
+            </div>
           </div>
 
           {/* Contact */}
