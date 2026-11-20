@@ -134,6 +134,20 @@ export default function ProcessPage() {
         </div>
       </section>
 
+      <section className="bg-white pb-20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="relative aspect-[4/5] sm:aspect-[16/10] overflow-hidden">
+            <Image
+              src="/images/process-inspiration.jpg"
+              alt="Dark wood-panelled washroom with marble vanity, twin basins, brass taps and glass wall lights"
+              fill
+              sizes="(min-width: 896px) 896px, 100vw"
+              className="object-cover object-[center_70%]"
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 bg-brand">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-black text-white mb-4">Start Step One Today</h2>
