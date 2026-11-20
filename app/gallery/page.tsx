@@ -12,6 +12,13 @@ export const metadata: Metadata = {
 
 const images = [
   {
+    src: "/images/bathroom-32.jpg",
+    alt: "Shower room with sage green vertical gloss tiles, brushed brass rain shower, backlit pill-shaped brass mirror and oak vanity with gold tap",
+    title: "Sage Green & Brass Shower Room",
+    location: "Ascot",
+    detail: "Sage green gloss tiles · Brushed brass rain shower · Backlit pill mirror · Oak vanity · Gold tap",
+  },
+  {
     src: "/images/bathroom-1.jpg",
     alt: "Dark navy vanity unit with Carrara marble vessel sink, round walnut mirror and amber wall sconces",
     title: "Bespoke Vanity",
