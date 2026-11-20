@@ -55,8 +55,16 @@ export default function BathroomInstallationPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
 
       {/* Hero */}
-      <section className="bg-brand py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-brand py-20 overflow-hidden">
+        <Image
+          src="/images/bathroom-14.jpg"
+          alt="Marble-effect bath and shower installed by ALR Bathrooms"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover opacity-20"
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex gap-2 text-xs text-[#8B8FA0] mb-4">
             <Link href="/services" className="hover:text-[#C9A97A] transition-colors">Services</Link>
             <span>/</span>

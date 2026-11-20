@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
 
@@ -18,8 +19,17 @@ const areas = [
 
 export default function Footer() {
   return (
-    <footer className="bg-brand text-cream">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <footer className="relative bg-brand text-cream overflow-hidden">
+      <Image
+        src="/images/bathroom-6.jpg"
+        alt=""
+        aria-hidden="true"
+        fill
+        sizes="100vw"
+        className="object-cover opacity-15"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-brand/60 via-brand/80 to-brand" />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">

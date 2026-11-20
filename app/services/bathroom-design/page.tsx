@@ -31,8 +31,16 @@ const designSteps = [
 export default function BathroomDesignPage() {
   return (
     <>
-      <section className="bg-brand py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-brand py-20 overflow-hidden">
+        <Image
+          src="/images/bathroom-12.jpg"
+          alt="Marble and brass bathroom designed by ALR Bathrooms"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover opacity-20"
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex gap-2 text-xs text-[#8B8FA0] mb-4">
             <Link href="/services" className="hover:text-[#C9A97A] transition-colors">Services</Link>
             <span>/</span>
@@ -120,6 +128,18 @@ export default function BathroomDesignPage() {
               <div key={item} className="flex items-center gap-3 bg-white p-4 border border-[#EDEAE3]">
                 <CheckCircle2 size={15} className="text-[#C9A97A] shrink-0" />
                 <span className="text-sm text-brand">{item}</span>
+              </div>
+            ))}
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mt-12">
+            {[
+              { src: "/images/bathroom-13.jpg", alt: "Calacatta Viola marble shower with brass fittings" },
+              { src: "/images/bathroom-17.jpg", alt: "Marble-effect bathroom with black vanity and backlit mirror" },
+              { src: "/images/bathroom-18.jpg", alt: "Textured feature wall with chrome heated towel rail" },
+              { src: "/images/bathroom-31.jpg", alt: "Backlit mirror with round basin and glass shower screen" },
+            ].map((img) => (
+              <div key={img.src} className="relative aspect-square overflow-hidden">
+                <Image src={img.src} alt={img.alt} fill sizes="(min-width: 768px) 25vw, 50vw" className="object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
           </div>

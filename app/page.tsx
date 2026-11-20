@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import GalleryCarousel from "@/components/GalleryCarousel";
 import {
@@ -40,6 +41,8 @@ const services = [
     desc: "From concept to creation — we handle the full design process, helping you achieve the bathroom you've always envisioned.",
     href: "/services/bathroom-design",
     tag: "Free Consultation",
+    image: "/images/bathroom-12.jpg",
+    imageAlt: "Pink-walled bathroom with marble splashback, brass fittings and round mirror designed by ALR Bathrooms",
   },
   {
     icon: Wrench,
@@ -47,6 +50,8 @@ const services = [
     desc: "Complete bathroom installation by skilled tradespeople. Tiling, plumbing, electrics, fixtures — everything coordinated for you.",
     href: "/services/bathroom-installation",
     tag: "Fully Managed",
+    image: "/images/bathroom-19.jpg",
+    imageAlt: "Walk-in shower with brass frame, rain head and backlit niche installed by ALR Bathrooms",
   },
   {
     icon: Sparkles,
@@ -54,6 +59,8 @@ const services = [
     desc: "We source and supply premium fixtures, tiles and sanitaryware to match your design vision and budget.",
     href: "/services/bathroom-installation",
     tag: "Premium Selection",
+    image: "/images/bathroom-29.jpg",
+    imageAlt: "Wooden vanity with marble top, brass tap and arched mirror supplied by ALR Bathrooms",
   },
 ];
 
@@ -231,8 +238,18 @@ export default function HomePage() {
               <Link
                 key={s.title}
                 href={s.href}
-                className="group border border-[#EDEAE3] p-8 hover:border-[#C9A97A] hover:shadow-lg transition-all"
+                className="group border border-[#EDEAE3] overflow-hidden hover:border-[#C9A97A] hover:shadow-lg transition-all"
               >
+                <div className="relative aspect-[4/3] overflow-hidden bg-[#EDEAE3]">
+                  <Image
+                    src={s.image}
+                    alt={s.imageAlt}
+                    fill
+                    sizes="(min-width: 768px) 33vw, 100vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-8">
                 <div className="inline-flex items-center justify-center w-12 h-12 bg-[#F8F6F2] group-hover:bg-[#C9A97A] transition-colors mb-6">
                   <s.icon size={22} className="text-brand group-hover:text-white transition-colors" />
                 </div>
@@ -241,6 +258,7 @@ export default function HomePage() {
                 <p className="text-sm text-[#8B8FA0] leading-relaxed mb-4">{s.desc}</p>
                 <div className="flex items-center gap-1 text-sm font-semibold text-brand group-hover:text-[#C9A97A] transition-colors">
                   Learn more <ArrowRight size={14} />
+                </div>
                 </div>
               </Link>
             ))}
@@ -284,6 +302,15 @@ export default function HomePage() {
             </div>
 
             <div className="grid grid-cols-2 gap-4">
+              <div className="relative col-span-2 aspect-[16/9] overflow-hidden">
+                <Image
+                  src="/images/bathroom-13.jpg"
+                  alt="Shower enclosure with bold Calacatta Viola marble and brass fittings by ALR Bathrooms"
+                  fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
               {[
                 { title: "Personalised Design", desc: "Your bathroom, your vision — we make it a reality" },
                 { title: "Quality Assured", desc: "Premium materials and professional finish every time" },
@@ -323,8 +350,16 @@ export default function HomePage() {
       </section>
 
       {/* ── PROCESS ── */}
-      <section className="py-20 bg-brand">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative py-20 bg-brand overflow-hidden">
+        <Image
+          src="/images/bathroom-17.jpg"
+          alt=""
+          aria-hidden="true"
+          fill
+          sizes="100vw"
+          className="object-cover opacity-15"
+        />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <p className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-3">How It Works</p>
             <h2 className="text-3xl lg:text-4xl font-black text-white">Simple. Stress-Free. Stunning.</h2>
