@@ -78,12 +78,13 @@ export default function ProcessPage() {
     <>
       <section className="relative bg-brand py-20 overflow-hidden">
         <Image
-          src="/images/bathroom-8.jpg"
-          alt="Star-pattern tiled shower room with brass shower column by ALR Bathrooms"
+          src="/images/process-inspiration.jpg"
+          alt=""
+          aria-hidden="true"
           fill
           priority
           sizes="100vw"
-          className="object-cover opacity-20"
+          className="object-cover object-[center_55%] opacity-50"
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-3">How It Works</p>
@@ -130,20 +131,6 @@ export default function ProcessPage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-white pb-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative aspect-[4/5] sm:aspect-[16/10] overflow-hidden">
-            <Image
-              src="/images/process-inspiration.jpg"
-              alt="Dark wood-panelled washroom with marble vanity, twin basins, brass taps and glass wall lights"
-              fill
-              sizes="(min-width: 896px) 896px, 100vw"
-              className="object-cover object-[center_70%]"
-            />
           </div>
         </div>
       </section>
