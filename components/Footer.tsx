@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
 
@@ -16,10 +17,21 @@ const areas = [
   "Staines upon Thames",
 ];
 
+const moreAreas = ["Camberley", "Dorking", "Sutton", "Ascot", "Windsor"];
+
 export default function Footer() {
   return (
-    <footer className="bg-brand text-cream">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <footer className="relative bg-brand text-cream overflow-hidden">
+      <Image
+        src="/images/bathroom-6.jpg"
+        alt=""
+        aria-hidden="true"
+        fill
+        sizes="100vw"
+        className="object-cover opacity-15"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-brand/60 via-brand/80 to-brand" />
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
@@ -78,11 +90,15 @@ export default function Footer() {
           {/* Areas */}
           <div>
             <h3 className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-5">Areas Covered</h3>
-            <ul className="space-y-2">
-              {areas.map((area) => (
-                <li key={area} className="text-sm text-[#8B8FA0]">{area}</li>
+            <div className="grid grid-cols-2 gap-x-6">
+              {[areas, moreAreas].map((list, i) => (
+                <ul key={i} className="space-y-2">
+                  {list.map((area) => (
+                    <li key={area} className="text-sm text-[#8B8FA0]">{area}</li>
+                  ))}
+                </ul>
               ))}
-            </ul>
+            </div>
           </div>
 
           {/* Contact */}
