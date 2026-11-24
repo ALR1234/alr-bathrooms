@@ -162,20 +162,6 @@ const images = [
     location: "Woking",
     detail: "Bronze fittings · Square rain shower · Illuminated penny tile niche · Large-format stone tiles",
   },
-  {
-    src: "/images/bathroom-21.jpg",
-    alt: "Spacious family bathroom with Calacatta marble tiles, bold star-pattern floor, fluted oak floating vanity, round backlit mirror and gold tap",
-    title: "Star-Floor Family Bathroom",
-    location: "Epsom",
-    detail: "Calacatta marble · Star-pattern floor tiles · Fluted oak vanity · Gold tap · Round backlit mirror",
-  },
-  {
-    src: "/images/bathroom-20.jpg",
-    alt: "Close-up of a running brushed brass tall monobloc tap beside a round white vessel sink with marble-tiled splashback",
-    title: "Star-Floor Family Bathroom — Tap Detail",
-    location: "Epsom",
-    detail: "Brushed brass tap · Round vessel sink · Marble tiling · Warm wall lighting",
-  },
 ];
 
 export default function GalleryPage() {
