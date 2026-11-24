@@ -27,6 +27,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -145,23 +146,39 @@ export default function Header() {
             <div className="px-4 py-4 space-y-1">
               {nav.map((item) => (
                 <div key={item.label}>
-                  <Link
-                    href={item.href}
-                    onClick={() => setOpen(false)}
-                    className="block py-2.5 text-sm font-medium text-white hover:text-[#C9A97A] border-b border-white/10"
-                  >
-                    {item.label}
-                  </Link>
-                  {item.children?.map((child) => (
+                  <div className="flex items-center border-b border-white/10">
                     <Link
-                      key={child.href}
-                      href={child.href}
+                      href={item.href}
                       onClick={() => setOpen(false)}
-                      className="block py-2 pl-4 text-sm text-stone-300 hover:text-[#C9A97A] border-b border-white/10"
+                      className="flex-1 block py-2.5 text-sm font-medium text-white hover:text-[#C9A97A]"
                     >
-                      {child.label}
+                      {item.label}
                     </Link>
-                  ))}
+                    {item.children && (
+                      <button
+                        onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                        className="p-2 text-white hover:text-[#C9A97A]"
+                        aria-label="Show service pages"
+                        aria-expanded={mobileServicesOpen}
+                      >
+                        <ChevronDown
+                          size={16}
+                          className={`transition-transform ${mobileServicesOpen ? "rotate-180" : ""}`}
+                        />
+                      </button>
+                    )}
+                  </div>
+                  {item.children && mobileServicesOpen &&
+                    item.children.map((child) => (
+                      <Link
+                        key={child.href}
+                        href={child.href}
+                        onClick={() => setOpen(false)}
+                        className="block py-2 pl-4 text-sm text-white/70 hover:text-[#C9A97A] border-b border-white/10"
+                      >
+                        {child.label}
+                      </Link>
+                    ))}
                 </div>
               ))}
               <div className="pt-3 flex flex-col gap-2">
