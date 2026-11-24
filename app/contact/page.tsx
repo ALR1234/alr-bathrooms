@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
@@ -13,15 +14,13 @@ export default function ContactPage() {
   return (
     <>
       <section className="relative bg-brand py-20 overflow-hidden">
-        <video
-          className="absolute inset-0 w-full h-full object-cover opacity-40 motion-reduce:hidden"
-          src="/videos/services-shower.mp4"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="auto"
-          aria-hidden="true"
+        <Image
+          src="/images/contact-shower.jpg"
+          alt="Brushed brass rain shower with sage green tiles installed by ALR Bathrooms"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover opacity-40"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-brand/80 via-brand/40 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
