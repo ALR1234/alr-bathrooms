@@ -43,13 +43,6 @@ const images = [
     detail: "Sage green gloss tiles · Brushed brass rain shower · Backlit pill mirror · Oak vanity · Gold tap",
   },
   {
-    src: "/images/bathroom-1.jpg",
-    alt: "Dark navy vanity unit with Carrara marble vessel sink, round walnut mirror and amber wall sconces",
-    title: "Bespoke Vanity",
-    location: "Cobham, Surrey",
-    detail: "Carrara vessel sink · Brass tap · Bespoke dark cabinetry · Walnut mirror",
-  },
-  {
     src: "/images/bathroom-22.jpg",
     alt: "Bathroom with deep teal vertical brick tiles, bath with folding glass screen, brass overhead rain shower and brass mixer taps",
     title: "Teal Brick & Brass Bathroom",
