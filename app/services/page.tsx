@@ -49,14 +49,17 @@ export default function ServicesPage() {
   return (
     <>
       <section className="relative bg-brand py-20 overflow-hidden">
-        <Image
-          src="/images/bathroom-21.jpg"
-          alt="Marble bathroom with patterned floor tiles by ALR Bathrooms"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover opacity-20"
+        <video
+          className="absolute inset-0 w-full h-full object-cover opacity-40 motion-reduce:hidden"
+          src="/videos/services-shower.mp4"
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="auto"
+          aria-hidden="true"
         />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand/80 via-brand/40 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs font-bold tracking-widest uppercase text-[#C9A97A] mb-3">Services</p>
           <h1 className="text-4xl lg:text-5xl font-black text-white mb-4">
