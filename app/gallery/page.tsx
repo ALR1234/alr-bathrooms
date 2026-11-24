@@ -54,13 +54,6 @@ const images = [
     detail: "Rose onyx marble · Brass rain shower · Geometric chevron floor tiles",
   },
   {
-    src: "/images/bathroom-8.jpg",
-    alt: "Artisan star-pattern tiled shower room with traditional brass shower column and gold heated towel rail",
-    title: "Star-Tile Shower Room",
-    location: "Kingston upon Thames",
-    detail: "Artisan star tiles · Traditional brass shower · Gold heated towel rail",
-  },
-  {
     src: "/images/bathroom-31.jpg",
     aspect: "1179 / 2096",
     alt: "Blush pink shower room with rounded backlit LED mirror, round white basin on a fluted pedestal, brushed nickel tap and walk-in shower with geometric tiles and lit niche",
