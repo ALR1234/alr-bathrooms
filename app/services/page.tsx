@@ -51,7 +51,7 @@ export default function ServicesPage() {
       <section className="relative bg-brand py-20 overflow-hidden">
         <video
           className="absolute inset-0 w-full h-full object-cover opacity-40 motion-reduce:hidden"
-          src="/videos/services-shower.mp4"
+          src="/videos/services-basin.mp4"
           autoPlay
           muted
           loop
