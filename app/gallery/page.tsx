@@ -12,6 +12,30 @@ export const metadata: Metadata = {
 
 const images = [
   {
+    src: "/images/bathroom-33.jpg",
+    aspect: "1179 / 1838",
+    alt: "Dusky pink bathroom with roll-top clawfoot bath beneath a sash window, Calacatta Viola marble tiling and brass heated towel rails",
+    title: "Pink & Viola Marble Bathroom",
+    location: "Teddington",
+    detail: "Roll-top clawfoot bath · Calacatta Viola marble · Brass towel rails · Dusky pink walls",
+  },
+  {
+    src: "/images/bathroom-34.jpg",
+    aspect: "1179 / 1566",
+    alt: "Traditional basin on a brass washstand with cross-head taps, round black mirror and opal glass wall lights in a pink and marble bathroom",
+    title: "Pink & Viola Marble Bathroom — Basin & Bath",
+    location: "Teddington",
+    detail: "Brass washstand basin · Cross-head taps · Round mirror · Opal wall lights",
+  },
+  {
+    src: "/images/bathroom-35.jpg",
+    aspect: "1179 / 1566",
+    alt: "Walk-in shower clad in Calacatta Viola marble with exposed brass thermostatic shower, rose head and recessed niche",
+    title: "Pink & Viola Marble Bathroom — Shower",
+    location: "Teddington",
+    detail: "Exposed brass thermostatic shower · Calacatta Viola marble · Recessed niche · Brass-framed enclosure",
+  },
+  {
     src: "/images/bathroom-32.jpg",
     alt: "Shower room with sage green vertical gloss tiles, brushed brass rain shower, backlit pill-shaped brass mirror and oak vanity with gold tap",
     title: "Sage Green & Brass Shower Room",
