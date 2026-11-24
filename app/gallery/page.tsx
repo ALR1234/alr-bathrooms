@@ -12,6 +12,27 @@ export const metadata: Metadata = {
 
 const images = [
   {
+    src: "/images/bathroom-32.jpg",
+    alt: "Shower room with sage green vertical gloss tiles, brushed brass rain shower, backlit pill-shaped brass mirror and oak vanity with gold tap",
+    title: "Sage Green & Brass Shower Room",
+    location: "Ascot",
+    detail: "Sage green gloss tiles · Brushed brass rain shower · Backlit pill mirror · Oak vanity · Gold tap",
+  },
+  {
+    src: "/images/bathroom-22.jpg",
+    alt: "Bathroom with deep teal vertical brick tiles, bath with folding glass screen, brass overhead rain shower and brass mixer taps",
+    title: "Teal Brick & Brass Bathroom",
+    location: "Surbiton",
+    detail: "Deep teal vertical tiles · Brass rain shower · Fold-over glass screen · Niche shelf",
+  },
+  {
+    src: "/images/bathroom-29.jpg",
+    alt: "Arched brass-framed mirror above a walnut vanity unit with white marble top and gold tap, beside deep teal vertical tiles",
+    title: "Teal Brick & Brass Bathroom — Walnut Vanity",
+    location: "Surbiton",
+    detail: "Arched brass mirror · Walnut vanity · Marble top · Gold tap · Deep teal vertical tiles",
+  },
+  {
     src: "/images/bathroom-33.jpg",
     aspect: "1179 / 1838",
     alt: "Dusky pink bathroom with roll-top clawfoot bath beneath a sash window, Calacatta Viola marble tiling and brass heated towel rails",
@@ -34,27 +55,6 @@ const images = [
     title: "Pink & Viola Marble Bathroom — Shower",
     location: "Weybridge",
     detail: "Exposed brass thermostatic shower · Calacatta Viola marble · Recessed niche · Brass-framed enclosure",
-  },
-  {
-    src: "/images/bathroom-32.jpg",
-    alt: "Shower room with sage green vertical gloss tiles, brushed brass rain shower, backlit pill-shaped brass mirror and oak vanity with gold tap",
-    title: "Sage Green & Brass Shower Room",
-    location: "Ascot",
-    detail: "Sage green gloss tiles · Brushed brass rain shower · Backlit pill mirror · Oak vanity · Gold tap",
-  },
-  {
-    src: "/images/bathroom-22.jpg",
-    alt: "Bathroom with deep teal vertical brick tiles, bath with folding glass screen, brass overhead rain shower and brass mixer taps",
-    title: "Teal Brick & Brass Bathroom",
-    location: "Surbiton",
-    detail: "Deep teal vertical tiles · Brass rain shower · Fold-over glass screen · Niche shelf",
-  },
-  {
-    src: "/images/bathroom-29.jpg",
-    alt: "Arched brass-framed mirror above a walnut vanity unit with white marble top and gold tap, beside deep teal vertical tiles",
-    title: "Teal Brick & Brass Bathroom — Walnut Vanity",
-    location: "Surbiton",
-    detail: "Arched brass mirror · Walnut vanity · Marble top · Gold tap · Deep teal vertical tiles",
   },
   {
     src: "/images/bathroom-6.jpg",
