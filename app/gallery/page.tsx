@@ -16,7 +16,7 @@ const images = [
     aspect: "1179 / 1838",
     alt: "Dusky pink bathroom with roll-top clawfoot bath beneath a sash window, Calacatta Viola marble tiling and brass heated towel rails",
     title: "Pink & Viola Marble Bathroom",
-    location: "Teddington",
+    location: "Weybridge",
     detail: "Roll-top clawfoot bath · Calacatta Viola marble · Brass towel rails · Dusky pink walls",
   },
   {
@@ -24,7 +24,7 @@ const images = [
     aspect: "1179 / 1566",
     alt: "Traditional basin on a brass washstand with cross-head taps, round black mirror and opal glass wall lights in a pink and marble bathroom",
     title: "Pink & Viola Marble Bathroom — Basin & Bath",
-    location: "Teddington",
+    location: "Weybridge",
     detail: "Brass washstand basin · Cross-head taps · Round mirror · Opal wall lights",
   },
   {
@@ -32,7 +32,7 @@ const images = [
     aspect: "1179 / 1566",
     alt: "Walk-in shower clad in Calacatta Viola marble with exposed brass thermostatic shower, rose head and recessed niche",
     title: "Pink & Viola Marble Bathroom — Shower",
-    location: "Teddington",
+    location: "Weybridge",
     detail: "Exposed brass thermostatic shower · Calacatta Viola marble · Recessed niche · Brass-framed enclosure",
   },
   {
