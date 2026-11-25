@@ -112,10 +112,8 @@ export default function HomePage() {
     email: "info@alrbathrooms.com",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "8 Kilmiston Avenue",
       addressLocality: "Shepperton",
       addressRegion: "Surrey",
-      postalCode: "TW17 9DL",
       addressCountry: "GB",
     },
     openingHours: "Mo-Su 08:00-18:00",
