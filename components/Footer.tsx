@@ -23,7 +23,7 @@ export default function Footer() {
   return (
     <footer className="relative bg-brand text-cream overflow-hidden">
       <Image
-        src="/images/bathroom-21.jpg"
+        src="/images/bathroom-15.jpg"
         alt=""
         aria-hidden="true"
         fill
