@@ -53,7 +53,7 @@ export default function Footer() {
             <div className="space-y-2 text-sm">
               <div className="flex items-start gap-2 text-[#8B8FA0]">
                 <MapPin size={14} className="text-[#C9A97A] mt-0.5 shrink-0" />
-                <span>8 Kilmiston Avenue<br />Shepperton, TW17 9DL</span>
+                <span>Shepperton, Surrey</span>
               </div>
               <div className="flex items-center gap-2 text-[#8B8FA0]">
                 <Clock size={14} className="text-[#C9A97A] shrink-0" />
@@ -135,7 +135,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-[#2A3355] flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-[#5A5F6E]">
           <span>© {new Date().getFullYear()} ALR Bathrooms. All rights reserved. VAT Reg No: GB 532 9983 52</span>
           <div className="flex items-center gap-4">
-            <span>8 Kilmiston Avenue, Shepperton, Surrey TW17 9DL</span>
+            <span>Shepperton, Surrey</span>
             <a
               href="https://www.instagram.com/alrbathrooms/"
               target="_blank"

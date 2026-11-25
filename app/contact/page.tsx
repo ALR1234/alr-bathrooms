@@ -74,9 +74,7 @@ export default function ContactPage() {
                     <div>
                       <div className="text-xs text-[#8B8FA0] uppercase tracking-widest font-bold mb-0.5">Address</div>
                       <div className="text-sm text-brand">
-                        8 Kilmiston Avenue<br />
-                        Shepperton<br />
-                        Surrey, TW17 9DL
+                        Shepperton, Surrey
                       </div>
                     </div>
                   </div>

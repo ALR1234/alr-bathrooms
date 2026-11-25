@@ -68,10 +68,8 @@ export default function AreasPage() {
     ],
     address: {
       "@type": "PostalAddress",
-      streetAddress: "8 Kilmiston Avenue",
       addressLocality: "Shepperton",
       addressRegion: "Surrey",
-      postalCode: "TW17 9DL",
     },
   };
 
