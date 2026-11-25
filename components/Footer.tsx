@@ -130,7 +130,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-[#2A3355] flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-[#5A5F6E]">
-          <span>© {new Date().getFullYear()} ALR Bathrooms. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} ALR Bathrooms. All rights reserved. VAT Reg No: GB 532 9983 52</span>
           <div className="flex items-center gap-4">
             <span>8 Kilmiston Avenue, Shepperton, Surrey TW17 9DL</span>
             <a
