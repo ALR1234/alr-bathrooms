@@ -17,7 +17,10 @@ const areas = [
   "Staines upon Thames",
 ];
 
-const moreAreas = ["Camberley", "Dorking", "Sutton", "Ascot", "Windsor"];
+const moreAreas = [
+  "Camberley", "Dorking", "Sutton", "Ascot", "Windsor",
+  "Teddington", "Weybridge", "Leatherhead", "Addlestone",
+];
 
 export default function Footer() {
   return (
